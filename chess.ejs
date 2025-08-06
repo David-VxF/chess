@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/public/chess/style.css" />
+</head>
+<body>
+  <h1>Chess vs AI</h1>
+  <p id="status" style="text-align:center; font-weight: bold; font-size: 18px;">
+  Giliran Anda
+</p>
+  <div id="chess-board">
+    <img src="/public/chess/board.png" id="board-img" />
+    <div id="pieces-layer"></div>
+    <div id="graveyard">
+  <div id="lost-black"></div>
+  <div id="lost-white"></div>
+</div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.12.0/chess.min.js"></script>
+  
+</body>
+</html>
